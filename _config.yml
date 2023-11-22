@@ -1,14 +1,14 @@
 title: Title
 description: Description
-author: Kieran
+author: Author
 
 theme: minima
 
+base_url: /kieran.github.io
 repository: kieran-/kieran.github.io
 
 # Minima social links
 github_username: kieran-
-rss: rss
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
