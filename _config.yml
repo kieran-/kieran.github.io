@@ -4,8 +4,12 @@ author: Kieran
 
 theme: minima
 
+base_url: /kieran.github.io
+repository: kieran-/kieran.github.io
+
 # Minima social links
 github_username: kieran-
+linkedin_username: jsanz
 rss: rss
 
 # Minima: show excerpts in the frontpage
