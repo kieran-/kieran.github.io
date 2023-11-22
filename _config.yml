@@ -4,8 +4,8 @@ author: Author
 
 theme: minima
 
-base_url: /kieran.github.io
-repository: kieran-/kieran.github.io
+baseurl: /kieran.github.io
+url: https://github.com/kieran-
 
 # Minima social links
 github_username: kieran-
