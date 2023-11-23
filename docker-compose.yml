@@ -2,6 +2,7 @@ version: '3'
 
 services:
   jekyll:
+    image: github-blog:tag
     build:
       context: .
     command: jekyll serve --watch --force_polling --incremental --port 8080 -H 0.0.0.0 --livereload --livereload-port 35729 --baseurl /gh-pages-minima-starter
