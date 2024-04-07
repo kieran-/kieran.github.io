@@ -1,4 +1,4 @@
-title: Title
+title: TITLE
 description: Description
 author:
   name: kieran-
@@ -7,9 +7,8 @@ author:
 #theme: minima
 remote_theme: jekyll/minima
 
-baseurl: /kieran.github.io
-url: https://github.com/kieran-
-
+base_url: /kieran.github.io
+url: https://kieran-.github.io
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
@@ -43,3 +42,16 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other

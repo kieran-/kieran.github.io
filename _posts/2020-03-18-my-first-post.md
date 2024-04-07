@@ -2,7 +2,21 @@
 title: "Tutorial I: my first post"
 date: 2020-03-18
 layout: post
+tags: NewTag Other
 ---
+
+----
+
+Table of contents:
+
+* TOC
+{:toc}
+
+----
+
+# H1
+
+# H2
 
 This is **my very first post**!! I can write
 
