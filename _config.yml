@@ -1,0 +1,57 @@
+title: TITLE
+description: Description
+author:
+  name: kieran-
+  email: contact@kieran.xyz
+
+#theme: minima
+remote_theme: jekyll/minima
+
+base_url: /kieran.github.io
+url: https://kieran-.github.io
+
+# Minima: show excerpts in the frontpage
+show_excerpts: true
+show_drafts: false
+
+home_post_limit: 5
+#paginate: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
+  social_links:
+   - { platform: github,         user_url: "https://github.com/kieran-" }
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
+
+include:
+    - _pages
+
+exclude: 
+    - .gitignore
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other

@@ -9,4 +9,4 @@ env
 *.lock
 *.LICENSE
 Dockerfile
-*.yml
+docker*.*
