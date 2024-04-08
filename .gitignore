@@ -8,4 +8,5 @@ env
 .Gemfile
 *.lock
 *.LICENSE
-docker*.*
+Docker*.*
+*.yml
