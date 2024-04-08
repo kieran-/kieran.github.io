@@ -6,7 +6,6 @@ _tmp/
 .vscode
 **/*.swp
 env
-Gemfile
 *.lock
 *.LICENSE
 Dockerfile
